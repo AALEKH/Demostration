@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    display:inline-block;
+    position:relative;
+	
+}
+#div1{
+  border-width:2px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:black;
+}
+#div2{
+  border-width:2px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:black;
+}
+#div3{
+  border-width:2px;
+  border-style:solid;
+  border-radius:10px;
+  border-color:black;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-git1.js"></script>
+<script>
+var correct=function()
+{
+  alert('correct');
+  
+};
+
+</script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div style="margin-left:380px;margin-top:200px">
+  <p style="font-family: Sans-Serif;margin-left:90px;font-size:30px;">Identify the Objects in the image?</p>
+   
+    <div style="margin-left:10px;margin-top:13px;border-width:2px;" id="div1"><img id="eight" style="height:200px;width:200px;cursor:pointer" src="./image1.gif"/></div>
+  <div style="margin-left:10px;margin-top:3px;border-width:2px;" id="div2"><img id="two" style="height:200px;width:200px;cursor:pointer" src="./image2.jpg"/></div>
+  <div style="margin-left:10px;margin-top:3px;border-width:2px;" id="div3"><img id="three" style="height:200px;width:200px;cursor:pointer" src="./mountains.jpg"/></div>
+  <br>
+  <div style="margin-left:10px;margin-top:3px;width:630px;height:35px;border-width:2px;border-style:solid;border-radius:10px;border-color:black;">
+    <div style="font-family:Sans-Serif;font-size:30px;margin-left:10px;" id="one" onclick="correct();" >Car
+    </div>
+    <div style="font-family:Sans-Serif;font-size:30px;margin-left:175px;" id="two2" onclick="incorrect();" >Cat
+    </div>
+    <div style="font-family:Sans-Serif;font-size:30px;margin-left:175px;" id="three3" onclick="incorrect();" >Mountain
+    </div>
+  </div >
+  </div>
+</body>
+</html>
